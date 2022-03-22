@@ -107,17 +107,18 @@ body{
   box-shadow: -1px -10px 0 0 var(--clr);
 }
 .menu ul li:nth-child(1).active ~ .indicator{
-  transform: translateX(calc(70px * 0));
+  transform: translateX(calc(13px * 1));
 }
 .menu ul li:nth-child(2).active ~ .indicator{
-  transform: translateX(calc(70px * 1));
+  transform: translateX(calc(82px * 1));
 }
 .menu ul li:nth-child(3).active ~ .indicator{
-  transform: translateX(calc(70px * 2));
+  transform: translateX(calc(76px * 2));
 }
 .menu ul li:nth-child(4).active ~ .indicator{
-  transform: translateX(calc(70px * 3));
+  transform: translateX(calc(74px * 3));
 }
 .menu ul li:nth-child(5).active ~ .indicator{
-  transform: translateX(calc(70px * 4));
+  transform: translateX(calc(73px * 4));
 }
+
